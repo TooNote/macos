@@ -95,6 +95,11 @@
 				TargetAttributes = {
 					279B27922312C00E00C59493 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -279,7 +284,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xiaotu.io.TooNote;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = xiaotu.io.toonote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -297,7 +303,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xiaotu.io.TooNote;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = xiaotu.io.toonote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
